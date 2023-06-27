@@ -1,5 +1,5 @@
 # PINEA
-PINEA es una herramienta quepermite simular el crecimiento, producción y dearrollo de un rodal pura y regular de Pinus pinea en la Meseta Norte en pasos de 1 año. Es un simuladro sensible al clima y a la gestión. 
+PINEA es una herramienta que permite simular el crecimiento, producción y dearrollo de un rodal pura y regular de Pinus pinea en la Meseta Norte en pasos de 1 año. Es un simuladro sensible al clima y a la gestión. 
 PINEA está implementado ocmo una macro de SAS (MACRO_SIMULADOR_PINEA.sas). La herramienta permite simular:
 - Distintos tipos de claras en años prefijados
 - Distinto tipo de corta final
