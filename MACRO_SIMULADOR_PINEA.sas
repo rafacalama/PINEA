@@ -4,7 +4,7 @@
 - Bases de datos iniciales
 - Datos climáticos
 - Periodo de simulación
-- Año inciial de simulaciój (en este caso fijo 2010)
+- Año inicial de simulación (en este caso fijo 2010)
 - Esquema de claras y corta final
 - Turno de corta
 - Límites mortalidad por autoaclareo
@@ -280,6 +280,7 @@ data cortatot; set cortatot corta&year;run;
 
 /* A partir de aquí genero la masa que va a entrar en simulación el año que viene, una vez quitado lo aclarado o muerto*/
 /* En el caso de que haya legado a la corta final, para el año siguiente se simula un nuevo regenerado con 20 años de edad*/
+/* aquí está programado para un turno de 120 años*/
 
 /* Simulacion del crecimiento */
 data datos1;set datos1;
@@ -421,10 +422,7 @@ by arbol;run;
 
 %mend simula;
 
-/*
-data datos; set datos_ini; if parcela=2;
 
-%simula; */
 
 /* Aquí indico que parcela (clase de edad) quiero simular*/
 
