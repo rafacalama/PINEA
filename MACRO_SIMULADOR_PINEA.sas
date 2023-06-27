@@ -1,4 +1,4 @@
-/* 31/08/22. Macro prueba Marta Ezquerro*/
+/* 31/08/22. Macro simulacion PINEA*/
 /* Código para para la Unidad Natural: Viana, asumimos índice de sitio=17. Puede cambiarse para otras unidades*/
 /* Cosas que puedo cambiar:
 - Bases de datos iniciales
